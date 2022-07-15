@@ -4,6 +4,7 @@ const  router = express.Router();
 // 添加房间
 router.post('/add' ,async (req,res)=>{
     const { RoomType }  = req.Model;
+    
     let {
        name,
        price,
@@ -15,7 +16,7 @@ router.post('/add' ,async (req,res)=>{
        beds,
        imgs
       }  = req.body;
-    
+      console.log(req.body)
      // 数据过滤的操作 
 
      try {

@@ -18,7 +18,7 @@ router.post('/add' ,async (req,res)=>{
           isSmoke,        // 是否允许吸烟
           isNoise,        // 是否是噪音房
           isHigh,        // 是否是高温房   
-          sthintheroom=[],     // 房间内的资产  
+          sthintheroom,     // 房间内的资产  
       }  = req.body;
     
      // 数据过滤的操作 

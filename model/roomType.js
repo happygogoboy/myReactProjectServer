@@ -8,12 +8,11 @@ const RoomTypeSchema = mongoose.Schema({
        price: Number,
        yaPrice:Number,
        shortName:String,
-       liveLimit: Number,
-       startLimit: Number,
+       liveLimit: String,
+       startLimit: String,
        couponNum: Number,
        beds:Number,
        imgs: Array
-
 });
 
 
